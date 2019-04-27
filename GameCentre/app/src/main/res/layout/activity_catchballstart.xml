@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catchingball.CatchBallStart"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!--
+     * A xml that build the front basis of the game named catching the ball
+     * This was adapted from a video from codingwithsara on Youtube
+     * link here:
+      * https://www.youtube.com/watch?v=ojD6ZDi2ep8&list=PLRdMAPi4QUfbIg6dRXf56cbMfeYtTdNSA
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/catching_ball_game"
+        android:textSize="32sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <TableRow
+            android:gravity="center_vertical">
+            <ImageView android:contentDescription="@string/pinkball_score"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/pink"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="20dp"
+                android:text="@string/pinkball_score"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView android:contentDescription="@string/orangeball_point"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/orange"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="20dp"
+                android:text="@string/orangeball_point"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+            <ImageView android:contentDescription="@string/game_over"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/star"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="20dp"
+                android:text="@string/game_over"
+                android:textSize="18sp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:onClick="startGame"
+        android:text="@string/startbutton" />
+
+    <Button
+        android:id="@+id/catchBallScoreBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreboard" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

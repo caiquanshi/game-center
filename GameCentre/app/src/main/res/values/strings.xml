@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GameCentre</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="sliding_tiles_name">Sliding Tiles</string>
+    <string name="lights_out_name">Lights Out</string>
+    <string name="load_game">Load Saved Game</string>
+    <string name="new_game">New Game</string>
+    <string name="save_game">Save Game</string>
+    <string name="scoreboard">Score Board</string>
+    <string name="account_name">Account Name</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="go_to_gameCenter_button">Go to GameCenter</string>
+    <string name="Boardsize3">3 X 3 Board</string>
+    <string name="Boardsize4">4 X 4 Board</string>
+    <string name="BoardSize5">5 X 5 Board</string>
+    <string name="difficultyOfSTG">Difficulty:</string>
+    <string name="undo_button">Undo</string>
+    <string name="catching_ball_game">Catching Ball</string>
+    <string name="log_off_button" >Log Off</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="registerbutton">Register</string>
+    <string name="signUpButtpm">Sign Up</string>
+    <string name="log_in_button">Log in</string>
+    <string name="pinkball_score">30 point</string>
+    <string name="orangeball_point">10 point</string>
+    <string name="startbutton">Start</string>
+    <string name="score">Score :</string>
+    <string name="tap_to_start">Tap to Start</string>
+    <string name="box">box</string>
+    <string name="blackball">blackball</string>
+</resources>
